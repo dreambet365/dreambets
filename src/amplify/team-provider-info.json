@@ -1,23 +1,15 @@
 {
   "staging": {
     "awscloudformation": {
-      "AuthRoleName": "amplify-dreambets-staging-53201-authRole",
-      "UnauthRoleArn": "arn:aws:iam::105842194383:role/amplify-dreambets-staging-53201-unauthRole",
-      "AuthRoleArn": "arn:aws:iam::105842194383:role/amplify-dreambets-staging-53201-authRole",
+      "AuthRoleName": "amplify-amplify3dc566c9dd144-staging-92229-authRole",
+      "UnauthRoleArn": "arn:aws:iam::105842194383:role/amplify-amplify3dc566c9dd144-staging-92229-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::105842194383:role/amplify-amplify3dc566c9dd144-staging-92229-authRole",
       "Region": "us-east-2",
-      "DeploymentBucketName": "amplify-dreambets-staging-53201-deployment",
-      "UnauthRoleName": "amplify-dreambets-staging-53201-unauthRole",
-      "StackName": "amplify-dreambets-staging-53201",
-      "StackId": "arn:aws:cloudformation:us-east-2:105842194383:stack/amplify-dreambets-staging-53201/75bc0770-8415-11ed-b0f7-02ebfc419d8a",
-      "AmplifyAppId": "d3khsj7u3vtkx7"
-    },
-    "categories": {
-      "auth": {
-        "dreambets": {}
-      },
-      "storage": {
-        "s3dreambetsstorage3cdc49c1": {}
-      }
+      "DeploymentBucketName": "amplify-amplify3dc566c9dd144-staging-92229-deployment",
+      "UnauthRoleName": "amplify-amplify3dc566c9dd144-staging-92229-unauthRole",
+      "StackName": "amplify-amplify3dc566c9dd144-staging-92229",
+      "StackId": "arn:aws:cloudformation:us-east-2:105842194383:stack/amplify-amplify3dc566c9dd144-staging-92229/a7bda470-8435-11ed-8a70-0697ae03b2d4",
+      "AmplifyAppId": "dhahi2wro1tpv"
     }
   }
 }
