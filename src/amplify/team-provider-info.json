@@ -1,0 +1,23 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-dreambets-staging-53201-authRole",
+      "UnauthRoleArn": "arn:aws:iam::105842194383:role/amplify-dreambets-staging-53201-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::105842194383:role/amplify-dreambets-staging-53201-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-dreambets-staging-53201-deployment",
+      "UnauthRoleName": "amplify-dreambets-staging-53201-unauthRole",
+      "StackName": "amplify-dreambets-staging-53201",
+      "StackId": "arn:aws:cloudformation:us-east-2:105842194383:stack/amplify-dreambets-staging-53201/75bc0770-8415-11ed-b0f7-02ebfc419d8a",
+      "AmplifyAppId": "d3khsj7u3vtkx7"
+    },
+    "categories": {
+      "auth": {
+        "dreambets": {}
+      },
+      "storage": {
+        "s3dreambetsstorage3cdc49c1": {}
+      }
+    }
+  }
+}

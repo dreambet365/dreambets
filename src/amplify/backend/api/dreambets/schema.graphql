@@ -1,0 +1,58 @@
+type Bravehearts @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  email: String
+  createdOn: AWSDateTime
+}
+
+type Bet @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  created: AWSDateTime
+  PlayerPositions: [Position] @hasMany(indexName: "byBet", fields: ["id"])
+}
+
+type Position @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  amount: Float
+  odds: Float
+  currency: String
+  created: AWSDateTime
+  expires: Boolean
+  ttl: Int
+  playerID: ID! @index(name: "byPlayer")
+  betID: ID! @index(name: "byBet")
+}
+
+enum Gender {
+  MALE
+  FEMALE
+  NON_BINARY
+  TRANS
+  RATHER_NOT_SAY
+}
+
+type Address {
+  country: String
+  city: String
+  state: String
+  street: String
+  building: String
+  unit: String
+  zipcode: String
+  gen: String
+}
+
+type Player @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  firstname: String!
+  lastname: String!
+  dob: String!
+  address: Address!
+  mobile: AWSPhone!
+  email: AWSEmail!
+  created: AWSDateTime!
+  gender: Gender
+  Positions: [Position] @hasMany(indexName: "byPlayer", fields: ["id"])
+  username: String
+  picture: String
+}
+ 

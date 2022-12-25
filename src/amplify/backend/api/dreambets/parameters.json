@@ -1,0 +1,6 @@
+{
+  "AppSyncApiName": "dreambets",
+  "DynamoDBBillingMode": "PAY_PER_REQUEST",
+  "DynamoDBEnableServerSideEncryption": false,
+  "AuthModeLastUpdated": "2022-12-25T05:50:46.635Z"
+}
